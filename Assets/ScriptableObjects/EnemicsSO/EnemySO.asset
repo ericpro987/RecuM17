@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cde28f0ec8523234fb2b2a8b8097e83a, type: 3}
+  m_Name: EnemySO
+  m_EditorClassIdentifier: 
+  hp: 4
+  dmg: 5
+  dmg2: 2
+  animator: {fileID: 9100000, guid: 42298f1deb984d24a98ecbf1d8634d04, type: 2}
+  clipIdle: {fileID: 7400000, guid: ba48c21e6eaaf5c48920106a9b53abe4, type: 2}
+  clipAttack: {fileID: 7400000, guid: 1b3ebd27aa37915448b1c61fcfe17cae, type: 2}
+  clipMove: {fileID: 7400000, guid: 0d6bae07b3419314990d6db35bb0a2fc, type: 2}
+  rangeAttack: 1.365953
+  color: {r: 0.13221629, g: 0.6075471, b: 0, a: 1}
